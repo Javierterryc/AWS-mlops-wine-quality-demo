@@ -70,4 +70,4 @@ The orchestrated pipelines include:
 - **Training pipeline**: Trains the model using the best (or default) hyperparameters, logs metrics, and registers the model.
 - **Batch inference pipeline**: Runs predictions on new data using the latest approved model and stores the results.
 
-These state machines allow for **modular, fault-tolerant, and event-driven orchestration**, making the entire system fully serverless and production-ready.
+These state machines make the pipeline easy to manage, scalable, and fully serverless, allowing each stage to run automatically and reliably. All of them were coded and deployed using **python scripts inside a Jupyter Notebook**, using the AWS SDK (`boto3`) to build, configure, and trigger Step Functions directly. This approach allows flexible, code-driven orchestration within a familiar notebook environment.
