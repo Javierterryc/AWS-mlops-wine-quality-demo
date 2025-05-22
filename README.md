@@ -21,15 +21,14 @@ The goal is to train a and deploy a model that can accurately predict wine quali
 All input data, output artifacts, metadata, and configuration files are organized under an S3 bucket with the following structure:
 
 /wine-quality-project/
-│
-├── wine_quality.csv # Original dataset
-├── config_file/ # Configs for training, processing, HPO
-├── preprocessed_data/ # Cleaned and split data
-├── pipeline-metadata/ # Metadata for training, processing, batch, HPO
-├── predictions/ # Batch inference outputs
-├── hpo_jobs/, training-jobs/ # Raw job artifacts
-├── lambda_functions/ # (Optional) Lambda ZIP packages or code
-└── requirements/, code/ # Dependencies and processing scripts
+- wine_quality.csv # Original dataset
+- config_file/ # Configs for training, processing, HPO
+- preprocessed_data/ # Cleaned and split data
+- pipeline-metadata/ # Metadata for training, processing, batch, HPO
+- predictions/ # Batch inference outputs
+- hpo_jobs/, training-jobs/ # Raw job artifacts
+- lambda_functions/ # (Optional) Lambda ZIP packages or code
+- requirements/, code/ # Dependencies and processing scripts
 
 
 ## 🧠 AWS Lambda Functions 
