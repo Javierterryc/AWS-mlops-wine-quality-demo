@@ -32,7 +32,7 @@ All input data, output artifacts, metadata, and configuration files are organize
 └── requirements/, code/ # Dependencies and processing scripts
 
 
-## 🧠 AWS Lambda Functions TEST
+## 🧠 AWS Lambda Functions 
 
 ### 🚀 Job Launchers
 - `launch-processing-job.py`: prepares data for training and HPO by running a processing job.
