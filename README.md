@@ -1,10 +1,8 @@
 # MLOps Demo – Wine Quality Prediction
 
-This demo projec implements a fully serverless MLOps pipeline using **AWS Lambda**, **Amazon SageMaker**, **Amazon S3**, and **AWS Step Functions** to automate the complete lifecycle of a machine learning model. The model predicts wine quality based on physicochemical characteristics of red wine samples.
+This demo project implements a fully serverless MLOps pipeline using **AWS Lambda**, **Amazon SageMaker**, **Amazon S3**, and **AWS Step Functions** to automate the complete lifecycle of a machine learning model built with **XGBoost**. The model predicts wine quality based on physicochemical characteristics of red wine samples.
 
-It is designed to demonstrate real-world MLOps best practices in a modular, scalable, and event-driven architecture.
-
----
+Although this project wasn't deployed to production, it was designed to demonstrate real-world MLOps best practices through a modular, scalable, and event-driven architecture.
 
 ## 🍷 About the Dataset
 
